@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "5a9f7669-e707-4c12-a839-49d8fc435b5a",
+    "Name": "Afsal",
+    "Email": "afsal@123.com",
+    "PasswordHash": "$2a$11$sM32XRlDuUn3RScRqdb2Zu6IPlURK3CFioZ.KDRyFLl9MVGnDW6G."
+  },
+  {
+    "Id": "4755b736-4d76-43a2-b15b-794eda01002c",
+    "Name": "Admin",
+    "Email": "admin",
+    "PasswordHash": "$2a$11$GmyXhXCfIVzab8ucbQ9dc.1Z8F.c8ugio0pIWgtrIeQzGj5WH2fNS"
+  },
+  {
+    "Id": "5ee3265f-0440-4e3e-ab95-1f3bb00e45cc",
+    "Name": "afsal",
+    "Email": "user@example.com",
+    "PasswordHash": "$2a$11$QiJNPxjHyuv/Ah3KSferQeuoUXjgYEgqpLUgSEW4le2RU5bHU348m"
+  },
+  {
+    "Id": "884620eb-b486-47ff-8c68-e383e4a7786c",
+    "Name": null,
+    "Email": null,
+    "PasswordHash": "$2a$11$cPThTljmTevYN2uHE012X.Tt1dbCPaIG5VXcHuJq0F5vqdGcD.9vO"
+  },
+  {
+    "Id": "4785c066-c8c4-4d0d-96c8-4189b08439df",
+    "Name": "newuser",
+    "Email": "user12@example.com",
+    "PasswordHash": "$2a$11$.qTllaAGIBK0dC7cigR7/Oc6z2aE7PY3cy8ilvVZcxT3ZlsTjkRy."
+  }
+]
