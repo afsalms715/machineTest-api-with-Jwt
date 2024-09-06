@@ -12,9 +12,15 @@
     "ImageUrl": "img/prd2"
   },
   {
-    "Id": "2",
+    "Id": "3",
     "Name": "Product3",
     "Price": 55,
     "ImageUrl": "img/prd3"
+  },
+  {
+    "Id": "4",
+    "Name": "Product4",
+    "Price": 52,
+    "ImageUrl": "img/prd4"
   }
 ]
