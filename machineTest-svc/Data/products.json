@@ -3,7 +3,6 @@
     "Id": "1",
     "Description": "TOZO T6 True Wireless Earbuds Bluetooth Headphones",
     "Price": 45,
-    "ImageUrl": "file:///C:/Users/Admin/source/repos/machineTest-api-with-Jwt/machineTest-svc/images/image.png",
     "Rating": {
       "Star": 5,
       "Peoples": 545
@@ -18,14 +17,13 @@
     "Id": "2",
     "Description": "Samsung Electronics Samsung Galaxy S20 5G",
     "Price": 467,
-    "ImageUrl": "file:///C:/Users/Admin/source/repos/machineTest-api-with-Jwt/machineTest-svc/images/image-1.png",
     "Rating": {
       "Star": 2,
       "Peoples": 556
     },
     "BannerLabel": {
       "Text": "Best Deal",
-      "BgColor": "red",
+      "BgColor": "green",
       "TextColor": "white"
     }
   },
@@ -33,14 +31,13 @@
     "Id": "3",
     "Description": "Amazon Basics High-Speed HDMI Cable (18 Gbps, 4K/60Hz)",
     "Price": 55,
-    "ImageUrl": "file:///C:/Users/Admin/source/repos/machineTest-api-with-Jwt/machineTest-svc/images/image-2.png",
     "Rating": {
       "Star": 5,
       "Peoples": 545
     },
     "BannerLabel": {
       "Text": "SALE",
-      "BgColor": "green",
+      "BgColor": "blue",
       "TextColor": "white"
     }
   },
@@ -48,7 +45,6 @@
     "Id": "4",
     "Description": "High-Speed Portable Washing Machine",
     "Price": 52,
-    "ImageUrl": "file:///C:/Users/Admin/source/repos/machineTest-api-with-Jwt/machineTest-svc/images/image-4.png",
     "Rating": {
       "Star": 5,
       "Peoples": 545
@@ -63,22 +59,20 @@
     "Id": "5",
     "Description": "Wired Over-Ear Gaming Headphone Set with USB",
     "Price": 52,
-    "ImageUrl": "file:///C:/Users/Admin/source/repos/machineTest-api-with-Jwt/machineTest-svc/images/image-5.png",
     "Rating": {
       "Star": 5,
       "Peoples": 545
     },
     "BannerLabel": {
-      "Text": "Hot",
-      "BgColor": "red",
-      "TextColor": "white"
+      "Text": "Limited",
+      "BgColor": "yellow",
+      "TextColor": "black"
     }
   },
   {
     "Id": "6",
     "Description": "Polaroid 57-Inch Photo/Video Tripod with Deluxe Tripod Carrying Case for Phones & Cameras",
     "Price": 52,
-    "ImageUrl": "file:///C:/Users/Admin/source/repos/machineTest-api-with-Jwt/machineTest-svc/images/image-6.png",
     "Rating": {
       "Star": 5,
       "Peoples": 545
@@ -90,10 +84,9 @@
     }
   },
   {
-    "Id": "4",
+    "Id": "7",
     "Description": "Dell Optiplex 7000 Micro Desktop Computer Monitor Stand",
     "Price": 52,
-    "ImageUrl": "file:///C:/Users/Admin/source/repos/machineTest-api-with-Jwt/machineTest-svc/images/image-7.png",
     "Rating": {
       "Star": 5,
       "Peoples": 545
@@ -105,10 +98,9 @@
     }
   },
   {
-    "Id": "4",
+    "Id": "8",
     "Description": "LG UHD LED Smart TV with Chromecast Built-In",
     "Price": 52,
-    "ImageUrl": "file:///C:/Users/Admin/source/repos/machineTest-api-with-Jwt/machineTest-svc/images/image-8.png",
     "Rating": {
       "Star": 5,
       "Peoples": 545

@@ -3,6 +3,8 @@ using machineTest_svc.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Drawing;
 
 namespace machineTest_svc.Controllers
 {
@@ -17,6 +19,12 @@ namespace machineTest_svc.Controllers
         public IActionResult GetProducts()
         {
             var products = JsonFileHandler.ReadJsonFile<Product>(_productFilePath);
+            foreach (var item in products)
+            {
+                var imageBytes = System.IO.File.ReadAllBytes("images/image-"+item.Id+".png");
+                if(imageBytes != null)
+                    item.ImageUrl = File(imageBytes, "image/png"); ;
+            }
             return Ok(products);
         }
 
