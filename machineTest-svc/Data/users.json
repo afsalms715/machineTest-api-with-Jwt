@@ -28,5 +28,11 @@
     "Name": "newuser",
     "Email": "user12@example.com",
     "PasswordHash": "$2a$11$.qTllaAGIBK0dC7cigR7/Oc6z2aE7PY3cy8ilvVZcxT3ZlsTjkRy."
+  },
+  {
+    "Id": "35b08763-4c38-49ea-a073-10f1f1d5a2a9",
+    "Name": "testing",
+    "Email": "testing@example.com",
+    "PasswordHash": "$2a$11$2kKJWFjBjXjoOT6wILHzL.wLpr3BgKMMecvKzqjF5aEsm3Ee0Ztku"
   }
 ]

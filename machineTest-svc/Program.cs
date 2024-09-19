@@ -12,6 +12,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddJwtConfigureServices();
 builder.Services.AddSingleton<IJwtTokenGeneration, JwtTokenGeneration>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "AllowSpecificOrigin",
+                      policy =>
+                      {
+                          policy.AllowAnyOrigin()
+                                .AllowAnyHeader()
+                                .AllowAnyMethod();
+                      });
+});
 
 builder.Services.AddSwaggerGen(c =>
 {
@@ -52,6 +62,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthentication();
 app.UseAuthorization();
